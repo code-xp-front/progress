@@ -1,18 +1,17 @@
 import React from "react";
-import imgService1 from "./hero-icon-320px.png";
+import imgService1 from "./icon1.png";
+import imgService2 from "./icon2.png";
+import imgService3 from "./icon3.png";
+import imgService4 from "./icon4.png";
+import imgService5 from "./icon5.png";
+import imgService6 from "./icon6.png";
+import imgService7 from "./icon7.png";
+import imgService8 from "./icon8.png";
+import imgPhone from "./phone.png";
 import "./Bring.css"
 
 var bring = {
     title: "Bring Your Own Business",
-    imgService1: "https://codexp-front-p4ge.github.io/progress/img/icon1.png",
-    imgService2: "https://codexp-front-p4ge.github.io/progress/img/icon2.png",
-    imgService3: "https://codexp-front-p4ge.github.io/progress/img/icon3.png",
-    imgService4: "https://codexp-front-p4ge.github.io/progress/img/icon4.png",
-    imgService5: "https://codexp-front-p4ge.github.io/progress/img/icon5.png",
-    imgService6: "https://codexp-front-p4ge.github.io/progress/img/icon6.png",
-    imgService7: "https://codexp-front-p4ge.github.io/progress/img/icon7.png",
-    imgService8: "https://codexp-front-p4ge.github.io/progress/img/icon8.png",
-    imgPhone: "https://codexp-front-p4ge.github.io/progress/img/phone.png",
     subtitle:"Flexible Platform",
     description: "We are an industry agnostic platform. If you can track it, you can Progress it! Progress makes it easy for service providers to connect directly with their customers."
 }
