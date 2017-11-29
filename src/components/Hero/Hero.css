@@ -1,0 +1,34 @@
+.hero {
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 1rem 0;
+    background-color: #55d87e;
+}
+
+.hero__icon {
+    display: block;
+    max-height: 200px;
+    margin: 0 auto;
+}
+
+@media(min-width: 768px) {
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    
+    .hero__icon {
+        max-height: 300px;
+        margin: 0;
+        align-self: flex-end;
+    }
+}
+
+@media(min-width: 992px) {
+    .hero__icon {
+        max-height: 400px;
+    }
+}
