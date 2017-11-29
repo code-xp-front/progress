@@ -5,6 +5,6 @@ import FollowAlong from "./components/Follow-along/Follow-along";
 export default () => (
   <div className="App">
     <Hero />
-    <FollowAlong description="></FollowAlong>
+    <FollowAlong description="Follow along on Twitter for all the lastest news!" />
   </div>
 );
