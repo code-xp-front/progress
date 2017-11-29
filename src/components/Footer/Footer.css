@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    width: 100%;
+    background-color: #2D333F;
+    color: #ccc;
+    text-align: center;
+    padding: 5% 0;
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        text-align: left;
+        padding: 3% 5%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .footer {
+        padding: 2% 5%;
+    }
+}
