@@ -3,7 +3,7 @@ import "./Footer.css"
 
 var footer = {
     social: "Follow along on Twitter for all the latest news!",
-    bold: " @Progress_App"
+    bold: " @Progress_App",
     info: "© 2014 Shooting Brake Design"
 }
 
