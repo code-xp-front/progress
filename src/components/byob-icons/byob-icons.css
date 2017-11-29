@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.business-byob__icon,
+.business-byob__icon--fone{
+    width: 100%;
+    height: auto;
+}
+
+.byob__icons{
+    display: flex;
+    padding: 0 20%;
+    justify-content: center
+}
+
+.business-byob{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .byob__icons{
+        padding: 0 5%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .byob__icons{
+        padding: 0 5%;
+        align-items: center;
+    }
+    .business-byob__icon{
+        width: 35%;
+        height: 33%;
+    }
+    .business-byob{
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+}
