@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.bring {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F4F4F6;
+    padding: 10% 0;
+}
+
+.bring-title, .bring-text {
+    text-align: center;
+}
+
+.bring-title, .services, .bring-text {
+    width: 70%;
+    margin: 5% 0;
+}
+
+.bring-title {
+    font-size: 2rem;
+}
+
+.services {
+    display: flex;
+    margin: 0 auto;
+}
+
+.services-icon {
+    width: 20%;
+    margin: 0 2%;
+}
+
+.services-icon__demo {
+    width: 100%;
+}
+
+.services-phone {
+    width: 50%;
+    margin: 0 2%;
+}
+
+.services-phone__demo{
+    width: 100%;
+}
+
+.bring-text {
+    padding: 0 8%;
+    color: grey;
+}
+
+.bring-subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 3%;
+}
+
+.bring-parag {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+}
+
+/* FORM */
+
+.invite {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 30px;
+}
+.invite__input {
+    padding: 2% 4%;
+    border-radius: 8px 0 0 8px;
+    border-style: none;
+    font-size: 0.7rem;
+}
+.invite__button {
+    min-width: 30%;
+    padding: 2% 4%;
+    border-radius: 0 8px 8px 0;
+    border-style: none;
+    color: white;
+    background: #51D67B;
+    font-size: 0.7rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .bring-title {
+        font-size: 3rem;
+    }
+    .bring-subtitle {
+        font-size: 1.7rem;
+    }
+    .bring-parag {
+        font-size: 1rem; 
+    }
+    .invite {
+        height: 40px;
+    }
+
+    .invite__input, .invite__button {
+        font-size: 0.8rem;
+    }
+
+    .invite__input {
+        width: 60%;
+    }
+
+    .invite__button {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .services {
+        width: 95%;
+        align-items: center;
+    }
+
+    .services-icon {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 40%;
+        justify-content: center;
+    }
+
+    .services-icon__demo {
+        width: 32%;
+        height: 100%;
+        margin: 3% 6%;
+    }
+
+    .services-icon__demo--1 {
+        order: 1; 
+    }
+
+    .services-icon__demo--2 {
+        order: 2; 
+    }
+
+    .services-icon__demo--3 {
+        order: 3; 
+    }
+
+    .services-icon__demo--4 {
+        order: 4; 
+    }
+
+    .services-phone {
+        width: 35%;
+        margin: 0;
+    }
+
+    .invite {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .services-icon__demo {
+        width: 30%;
+        margin: 4% 8%;
+    }
+
+}
