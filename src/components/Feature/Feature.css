@@ -1,0 +1,78 @@
+
+/* -- FEATURE -- */
+.feature {
+    display: block;
+}
+
+.feature__content {
+    text-align: center;
+}
+
+.feature__content-title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.feature__content-description {
+    color: #999;
+}
+
+.feature__picture {
+    display: block;
+    text-align: center;
+}
+
+.feature__picture img {
+    width: 100%;
+    max-width: 350px;
+    vertical-align: middle;
+}
+
+/* ---- MEDIA QUERY TABLET/DESKTOP ---- */
+@media (min-width:768px)
+{
+    /* ---- FEATURES ---- */
+    .features {
+        padding: 0 5%;
+    }
+
+    /* -- FEATURE -- */
+    .feature {
+        height: 550px;
+    }
+
+    .feature__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        float: right;
+        width: 45%;
+        height: 40%;
+        text-align: left;
+    }
+
+    .feature__picture {
+        float: left;
+        width: 45%;
+    }
+
+    .feature__picture img {
+        height: 100%;
+    }
+
+    /* -- FEATURE-REVERSE -- */
+    .feature-reverse {
+        display: flex;
+        align-items: center;
+    }
+
+    .feature-reverse picture {
+        order: 2;
+    }
+
+    .feature-reverse .feature__content {
+        float: left;
+        align-items: baseline;
+        align-self: center;
+    }
+}
