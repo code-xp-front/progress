@@ -1,17 +1,20 @@
 import React from "react";
-import HeroIcon320 from "./hero-icon-320px.png";
+import HeroPhoneIcon from "./phone-hero.png";
+import HeroLogoIcon from "./logo-progress.png";
 import "./Hero.css"
 
-export default (props) => (
-    <header className="hero">
-        <div>
-            <h1 className="hero__title">progress</h1>
-            <p className="hero__text">
-                A new way for service<br/>
-                providers and consumers<br/>
-                track project profression.
-            </p>
-        </div>
-        <img className="hero__icon" src={HeroIcon320} alt="Celular com a tela inicial do aplicativo progress"/>
-    </header>
-);
+export default(props) => (
+<header className="hero"> 
+    <div className="hero--size">
+    <div className="hero__title">
+        <figure className="hero__title-figura">
+            <img className="hero__title-figura--size-img" src={HeroLogoIcon} alt="Logo_progress"/>
+        </figure>
+        <p className="hero__title-texto">{props.text}</p>
+    </div>
+    <figure className="hero__phone">
+        <img src={HeroPhoneIcon} className="hero__phone--size-img" alt="Phone_Hero"/>
+    </figure>
+</div> 
+</header>
+        );
