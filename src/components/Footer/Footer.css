@@ -1,0 +1,25 @@
+.rodape{
+    background: #2e3440;
+    color: #888;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media screen and (min-width:768px){
+    .rodape{
+        text-align: left;
+    }
+}
+
+@media screen and (min-width:992px){
+    .rodape{
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .rodape{
+        padding: 20px 80px;
+    }
+}
