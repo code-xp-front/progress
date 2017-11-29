@@ -1,0 +1,38 @@
+.footer {
+    background-color: #2e3440;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+}
+
+.footer__social {
+    background-color: #59d57f;
+    box-sizing: border-box;
+    color: #ffffff;
+    padding: 16px 20%;
+    margin: 0;
+}
+
+.footer__bold {
+    font-weight: bold;
+}
+
+.footer__info {
+    box-sizing: border-box;
+    color: #8c96a0;
+    font-size: 0.8rem;
+    padding: 16px 0;
+    margin: 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__social {
+        padding: 32px 20%;
+    }
+    .footer__info {
+        align-content: flex-start;
+        display: flex;
+        padding-left: 3%;
+    }
+}
