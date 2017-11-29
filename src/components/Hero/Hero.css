@@ -1,34 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
 .hero {
-    color: #ffffff;
+    background-color: #82E2A0;
+    color: white;
+}
+
+.hero--size {
+    width: 100%;
+}
+
+.hero__title {
+    width: 100%;
+    justify-content: center;
+}
+
+.hero__title-figura {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero__title-figura--size-img {
+    width: 300px;
+    margin: auto;
+}
+
+.hero__title-texto {
+    max-width: 100%;
+    word-wrap: break-word;
+    font-size: 2em;
+    margin-top: -25px;
+    padding: 0 50px 25px 50px;
     text-align: center;
-    padding: 1.5rem 1rem 0;
-    background-color: #55d87e;
 }
 
-.hero__icon {
-    display: block;
-    max-height: 200px;
-    margin: 0 auto;
+.hero__phone {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
-@media(min-width: 768px) {
-    .hero {
+.hero__phone--size-img {
+    width: 75%;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .hero--size {
         display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-size: 1.5rem;
-        text-align: left;
     }
-    
-    .hero__icon {
-        max-height: 300px;
-        margin: 0;
-        align-self: flex-end;
+    .hero__title-figura {
+        flex-direction: column-reverse;
+        padding-top: 50px;
+        padding-left: 15px;
+    }
+    .hero__title-figura--size-img {
+        width: 90%;
+    }
+
+    .hero__title {
+        width: 60%;
+        justify-content: center;
+    }    
+
+    .hero__title-texto {      
+        font-size: 3em;
+        text-align: left;
+        min-height: 200px;
+        padding: 25px 50px;
+    }
+    .hero__phone {
+        padding-top: 50px;
+    }
+    .hero__phone--size-img {
+        width: 100%;
+        align-items: center;
     }
 }
 
-@media(min-width: 992px) {
-    .hero__icon {
-        max-height: 400px;
+@media screen and (min-width: 992px) {
+    .hero--size {
+        max-width: 1130px;
+        margin: auto;
+    }
+    .hero__title {
+        padding-top: 150px;
+    }
+    .hero__title-figura--size-img {
+        max-width: 480px;
+    }
+    .hero__phone--size-img {
+        max-width: 540px;
+        align-items: center;
     }
 }
