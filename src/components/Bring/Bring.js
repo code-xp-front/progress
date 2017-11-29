@@ -19,32 +19,32 @@ var bring = {
 export default (props) => (
     <section className="bring">
         <h1 className="bring-title">
-            {props.title}
+            {props.bring.title}
         </h1>
         <div className="services">
             <div className="services-icon services-icon--left">
-                <img className="services-icon__demo services-icon__demo--1" src="img/icon1.png" alt="icon detail">
-                <img className="services-icon__demo services-icon__demo--2" src="img/icon2.png" alt="icon flower">
-                <img className="services-icon__demo services-icon__demo--4" src="img/icon3.png" alt="icon grave">
-                <img className="services-icon__demo services-icon__demo--3" src="img/icon4.png" alt="icon pc">
+                <img className="services-icon__demo services-icon__demo--1" src={imgService1} alt="icon detail">
+                <img className="services-icon__demo services-icon__demo--2" src={imgService2} alt="icon flower">
+                <img className="services-icon__demo services-icon__demo--4" src={imgService3} alt="icon grave">
+                <img className="services-icon__demo services-icon__demo--3" src={imgService4} alt="icon pc">
             </div>
             <div className="services-phone">
-                <img className="services-phone__demo" src="img/phone.png" alt="phone">
+                <img className="services-phone__demo" src={imgPhone} alt="phone">
             </div>
             <div className="services-icon services-icon--right">
-                <img className="services-icon__demo services-icon__demo--2" src="img/icon5.png" alt="icon bug">
-                <img className="services-icon__demo services-icon__demo--1" src="img/icon6.png" alt="icon tool">
-                <img className="services-icon__demo services-icon__demo--3" src="img/icon7.png" alt="icon mech">
-                <img className="services-icon__demo services-icon__demo--4" src="img/icon8.png" alt="icon garden">
+                <img className="services-icon__demo services-icon__demo--2" src={imgService5} alt="icon bug">
+                <img className="services-icon__demo services-icon__demo--1" src={imgService6} alt="icon tool">
+                <img className="services-icon__demo services-icon__demo--3" src={imgService7} alt="icon mech">
+                <img className="services-icon__demo services-icon__demo--4" src={imgService8} alt="icon garden">
             </div>
         </div>
 
         <div className="bring-text">
             <h2 className="bring-subtitle">
-                {props.subtitle}
+                {props.bring.subtitle}
             </h2>
             <p className="bring-parag">
-                {props.description}
+                {props.bring.description}
             </p>
         </div>
 
