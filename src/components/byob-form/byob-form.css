@@ -1,34 +1,35 @@
-.hero {
-    color: #ffffff;
-    text-align: center;
-    padding: 1.5rem 1rem 0;
-    background-color: #55d87e;
+form{
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f9;
+    width: 100%;
+    height: 4rem;
+}
+.byob-form__input {
+    padding: 1em 2em;
+    border-radius: 10px 0px 0px 10px; 
+    border: 1px solid #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.8rem;
+    background-color: #FFFFFF;
+    color: #c4c5c9;
+    /* height: 1rem; */
+    align-self: center;
+
 }
 
-.hero__icon {
-    display: block;
-    max-height: 200px;
-    margin: 0 auto;
-}
-
-@media(min-width: 768px) {
-    .hero {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-size: 1.5rem;
-        text-align: left;
-    }
-    
-    .hero__icon {
-        max-height: 300px;
-        margin: 0;
-        align-self: flex-end;
-    }
-}
-
-@media(min-width: 992px) {
-    .hero__icon {
-        max-height: 400px;
-    }
+.byob-form__button {
+    padding: 1em 2em;
+    border-radius: 0px 10px 10px 0px; 
+    border: 1px solid #60D786;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #60D786;
+    color: #fff;
+    margin-left: -4px;
+    letter-spacing: 0.1rem;
+    /* height: 1rem; */
+    align-self: center;
 }
