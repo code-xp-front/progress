@@ -6,3 +6,4 @@ export default (props) => (
         <p><i class="fa fa-copyright" aria-hidden="true"></i>{props.text}</p>
     </footer>
   );
+
