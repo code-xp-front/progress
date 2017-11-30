@@ -10,6 +10,28 @@ var textos = [
   "Texto 2"
 ];
 
+var empresa = {
+  nome: "Eurotech Mottors, LCC",
+  endereco: "555 Water Tower Court",
+  cidade: "Holland, MI 49242"
+}
+
+var vendedor = {
+  nome: "Jake Montgomery"
+}
+
+var veiculo = {
+  nome: "2010 Mini Cooper",
+  modelo: "S",
+  milhas: 31.209,
+  VIN: "000193HHAAO1I345"
+}
+
+var pedido = {
+  numero: 188801934,
+  codigo: 3110556
+} 
+
 export default () => (
   <div className="App">
     <Hero title="progress" textos={textos} />
