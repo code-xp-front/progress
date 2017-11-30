@@ -1,7 +1,13 @@
 import React from 'react';
 import Hero from "./components/Hero/Hero";
 import Pedido from "./components/Pedido/Pedido";
+import Footer from "./components/Footer/Footer";
 
+
+var textos = [
+  "Texto 1",
+  "Texto 2"
+];
 
 var servicos = {
   servico1: {
@@ -32,7 +38,8 @@ var servicos = {
 
 export default () => (
   <div className="App">
-    <Hero />
+    <Hero title="progress" textos={textos} />
     <Pedido servicos={servicos} />
+    <Footer texto="Copyright" />
   </div>
 );
