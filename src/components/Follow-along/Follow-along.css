@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.follow-along {
+    background-color: #61D988;
+    color: #ffffff;
+    text-align: center;
+    padding: 6%;
+}
+
+.follow-along__description {
+    padding: 0 25%;
+    line-height: 140%; 
+}
+
+.follow-along__link {
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Archivo Black', sans-serif; 
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+    .follow-along {
+        padding: 5%;
+    }
+
+    .follow-along__description {
+        padding: 0 5%;
+    }
+}
