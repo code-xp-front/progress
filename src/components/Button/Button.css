@@ -1,0 +1,15 @@
+.button {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: .7rem 3rem;
+    border-radius: .7rem;
+}
+
+.button--primary {
+    background: #58d67f;
+}
+
+.button--secondary {
+    background: #c4c5c9;
+}
