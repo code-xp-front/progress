@@ -17,7 +17,7 @@ html, body, App, #root {
 }
 
 
-/*__Botão sólido verde__*/
+/*__Botão sólido verde __*/
 .primary-button {
     margin: 0.5em;    
     padding: 0.8em 2em;
@@ -32,7 +32,7 @@ html, body, App, #root {
     color: #fff;
 }
 
-/*__Botão sólido cinza__*/
+/*__Botão sólido cinza __*/
 
 .secundary-button {
     margin: 0.5em;    

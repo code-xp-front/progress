@@ -6,4 +6,4 @@ export default (props) => (
         <a href="" className="primary-button">{props.primary}</a>
         <a href="" className="secundary-button">{props.secundary}</a>
     </section>
-);
+); 
